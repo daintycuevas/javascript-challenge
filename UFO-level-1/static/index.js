@@ -1,10 +1,8 @@
-var ufodata = data;
+var ufotable = d3.select("#ufo-table");
 
-var ufotable = d3.select("ufo-table");
+console.log(data);
 
-console.log(ufodata);
-
-ufodata.forEach(function(ufoReport) {
+data.forEach(function(ufoReport) {
   console.log(ufoReport);
 });
 
