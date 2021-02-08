@@ -18,7 +18,6 @@ var button = d3.select("#button");
 
 // Create event handlers 
 button.on("click", runEnter);
-form.on("submit",runEnter);
 
 // Complete the event handler function for the form
 function runEnter() {
