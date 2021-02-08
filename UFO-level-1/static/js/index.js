@@ -1,13 +1,18 @@
-var data = data;
+var ufodata = data;
 
-function response() {
-  return data;
-}
-console.log(response);
+var ufotable = d3.select("#ufo-table");
 
-// data.forEach(function(ufoReport) {
-//   console.log(ufoReport);
-// });
+console.log(data);
 
-// ufodata.append('imagefile', file);
+data.forEach(function(ufoReport) {
+  console.log(ufoReport);
+  var row = ufotable.append("tr");
+  Object.entries(ufoReport).forEach(function([key, value]) {
+    console.log(key, value);
+    var cell = row.append("td");
+    cell.text(value);
+  });
+});
+
+
 
