@@ -37,6 +37,16 @@ function runEnter() {
   console.log(inputValue);
 }
 
+// Create function to populate values into HTML
+data.forEach(function(ufoReport) {
+    console.log(ufoReport);
+    var row = ufoTable.append("tr");
+    Object.entries(ufoReport).forEach(function([key, value]) {
+      console.log(key, value);
+      var cell = row.append("td");
+      cell.text(value);
+    });
+  });
 // console.log(people);
 
 //   var filteredData = people.filter(person => person.bloodType === inputValue);
