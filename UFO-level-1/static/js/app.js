@@ -51,7 +51,6 @@ function runEnter() {
 
   ufoSpotting.forEach(function(ufoDate) {
     console.log(ufoDate);
-    // var header = ufoTable.append("th");
     var row = ufoTable.append("tr");
     Object.entries(ufoDate).forEach(function([key, value]) {
       console.log(key, value);
@@ -61,7 +60,7 @@ function runEnter() {
   });
 }
 
-updateData(ufoData);
+
 
 
 
