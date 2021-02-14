@@ -9,4 +9,6 @@ The next step was to append the filtered results. This was accomplished but not 
 
 Prior to including more functionalities on the page, filtered results can be nicely viewed, which I do not clearly understand. 
 
-At this point, filter search is functioning with formatting issues on the UFO javascript-challenge. 
+At this point, filter search is functioning with formatting issues on the UFO level 1 javascript-challenge. 
+
+UFO level 2 is incomplete. 
